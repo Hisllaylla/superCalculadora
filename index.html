@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>XP Super Calculadora</title>
+</head>
+
+<body>
+    <header>
+
+        <h1>SUPER CALCULADORA</h1>
+
+        <div class="inputCnt">
+            <label for="primeiroNumero">Primeiro número (A):</label>
+            <input type="number" name="primeiroNumero" id="primeiroNumero">
+
+            <label for="segundoNumero">Segundo número (B):</label>
+            <input type="number" name="segundoNumero" id="segundoNumero">
+
+
+            <input type="button" value="Calcular" onclick="calcular()" id="botaoCalcular" />
+
+        </div>
+
+    </header>
+
+    <main>
+        <!--            SOMA              -->
+        <div class="resultadoCnt">
+            <p class="calculoSoma">Soma</p>
+            <p id="resultadoSoma" class="resultadoSoma"></p>
+        </div>
+
+        <!--         SUBTRAÇÃO A          -->
+        <div class="resultadoCnt">
+            <p class="calculoSubtracaoA">Subtração (A - B)</p>
+            <p id="resultadoSubtracaoA" class="resultadoSubtracaoA"></p>
+        </div>
+
+        <!--         SUBTRAÇÃO B          -->
+        <div class="resultadoCnt">
+            <p class="calculoSubtracaoB">Subtração (B - A)</p>
+            <p id="resultadoSubtracaoB" class="resultadoSubtracaoB"></p>
+        </div>
+
+        <!--         MULTIPLICACAO        -->
+        <div class="resultadoCnt">
+            <p class="calculoMultiplicacao">Multiplicão</p>
+            <p id="resultadoMultiplicacao" class="resultadoMultiplicacao"></p>
+        </div>
+
+        <!--         DIVISÃO A            -->
+        <div class="resultadoCnt">
+            <p class="calculoDivisaoA">Divisão (A ÷ B) </p>
+            <p id="resultadoDivisaoA" class="resultadoDivisaoA"></p>
+        </div>
+
+        <!--         DIVISÃO B            -->
+        <div class="resultadoCnt">
+            <p class="calculoDivisaoB">Divisão (B ÷ A) </p>
+            <p id="resultadoDivisaoB" class="resultadoDivisaoB"></p>
+        </div>
+
+        <!--                              -->
+        <div class="resultadoCnt">
+            <p class="calculoPotenciaA">Potência de A na base B</p>
+            <p id="resultadoPotenciaA" class="resultadoPotenciaA"></p>
+        </div>
+
+        <!--                              -->
+        <div class="resultadoCnt">
+            <p class="calculoPotenciaB">Potência de B na base A</p>
+            <p id="resultadoPotenciaB" class="resultadoPotenciaB"></p>
+        </div>
+
+        <!--                              -->
+        <div class="resultadoCnt">
+            <p class="calculoRaizA">Raiz Quadrada de A</p>
+            <p id="resultadoRaizA" class="resultadoRaizA"></p>
+        </div>
+
+        <!--                              -->
+        <div class="resultadoCnt">
+            <p class="calculoRaizB">Raiz Quadrada de B</p>
+            <p id="resultadoRaizB" class="resultadoRaizB"></p>
+        </div>
+
+        <!--                              -->
+        <div class="resultadoCnt">
+            <p class="calculoFatorialA">Fatorial de A</p>
+            <p id="resultadoFatorialA" class="resultadoFatorialA"></p>
+        </div>
+
+        <!--                              -->
+        <div class="resultadoCnt">
+            <p class="calculoFatorialB">Fatorial de B</p>
+            <p id="resultadoFatorialB" class="resultadoFatorialB"></p>
+        </div>
+
+        <!--                              -->
+        <div class="resultadoCnt">
+            <p class="calculoPorcentagemA">Porcentagem de A em relação a B</p>
+            <p id="resultadoPorcentagemA" class="resultadoPorcentagemA"></p>
+        </div>
+
+        <div class="resultadoCnt">
+            <p class="calculoPorcentagemB">Porcentagem de B em relação a A</p>
+            <p id="resultadoPorcentagemB" class="resultadoPorcentagemB"></p>
+        </div>
+
+        <!--                              -->
+        <div class="resultadoCnt">
+            <p class="calculoMedia">Média</p>
+            <p id="resultadoMedia" class="resultadoMedia"></p>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
