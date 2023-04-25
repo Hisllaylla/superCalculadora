@@ -1,0 +1,52 @@
+body {
+    max-width: max-content 800px;
+    margin: 100px;
+}
+
+p {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: lightpink;
+    padding: 25px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom: 3px solid purple;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+
+}
+
+/* LETRAS */
+label {
+    color: purple;
+}
+
+.inputCnt {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightpink;
+    padding: 20px;
+}
+
+.resultadoCnt {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid purple;
+    padding: 10px;
+}
+
+.resultado {
+    color: whitesmoke;
+
+}
